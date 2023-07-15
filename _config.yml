@@ -41,6 +41,9 @@ content:
           - <mark>Nginx</mark> <mark>Apache</mark>
           - <mark>Mysql</mark>   
           - <mark>AWS</mark> <mark>Git</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Slack</mark>
+
+          <br>
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -106,9 +109,9 @@ content:
         sub_title: 개인 기록용 블로그
         caption: 2019 ~ 현재
         description: |
-          <p> 블로그를 한번 헤볼까? 라는 생각으로 개인 기록용으로 사용하는 블로그 입니다.
+          <p> 블로그를 한번 헤볼까? 라는 생각으로 개인 기록용으로 사용하고 운영하는 블로그 입니다. <br>
               개인적으로 실천했던 부분들이나 개발하면서 기록이 필요하다고 생각되는 부분들을 기록하고 
-              다른 사람들이 참고하여 개발에 도움을 줄 수 있도록 만들려고 노력하고 있습니다.</p>
+              다른 사람들이 참고하여 도움을 줄 수 있도록 만 노력하고 있습니다.</p>
 
 # Footer
 footer_show_references: true
