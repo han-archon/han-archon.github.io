@@ -35,15 +35,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
         description: | # this will include new lines to allow paragraphs
           - <mark>PHP</mark> <mark>Javascript(jQuery)</mark> <mark>Java(SpringBoot)</mark> 
           - <mark>Nginx</mark> <mark>Apache</mark>
           - <mark>Mysql</mark>   
           - <mark>AWS</mark> <mark>Git</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Slack</mark>
-          <p> </p> 
-          <br>
-          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
