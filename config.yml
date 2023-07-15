@@ -37,8 +37,8 @@ additional_links:
 
 # About Section
 about_title: Han Jaewon
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
+about_profile_image: images/profile.jpg
+about_content: | 
 안녕하세요 백엔드 개발자로 일하고 있는 한재원 입니다.
 협업 시 의사소통과 팀원들 간의 일정 및 업무 공유를 중요하게 생각하고, 
 실무를 경험하며 협업능력과 개발능력을 기르고 있습니다. 
