@@ -6,32 +6,20 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 한재원
+title: Back-end Developer
+email: point1054@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-4593-1737
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: dodo1054.tistory.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  han-archon
 
 # Additional icon links
 additional_links:
@@ -49,36 +37,36 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: Han Jaewon
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+안녕하세요 백엔드 개발자로 일하고 있는 한재원 입니다.
+협업 시 의사소통과 팀원들 간의 일정 및 업무 공유를 중요하게 생각하고, 
+실무를 경험하며 협업능력과 개발능력을 기르고 있습니다. 
+리팅 성형외과 병원 신규 고객관리프로그램(CRM) 프로젝트 개발 경험과
+데이팅 앱 서비스인 너랑나랑 및 연권 앱 유지보수 및 신규개발 경험을 하고 있습니다.
 
 content:
+- title: Skils # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        description: | # this will include new lines to allow paragraphs
+           Language
+             - PHP, Javascript(jQuery), Java(SpringBoot)
+           WebServer
+             - Nginx, Apache
+           Database 
+             - Mysql  
+           ETC 
+             - AWS, Linux, Git, Github, Jira, Confluence, Slack
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
   - title: Experience
