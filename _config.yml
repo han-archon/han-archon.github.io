@@ -49,8 +49,11 @@ content:
         link: https://www.techlabs.co.kr/
         sub_title: Junior Backend Developer
         caption: 2021-02 ~ 현재
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+        description:  # this will include new lines to allow paragraphs
+          title: 테크랩스 
+          sub_title: Junior Backend Developer
+          caption: 2021-02 ~ 현재
+          description: AAAAAAAAAAAAaaaa
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
