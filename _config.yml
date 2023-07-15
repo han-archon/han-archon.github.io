@@ -97,13 +97,18 @@ content:
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
           -  <mark>Kendo UI Framework</mark>
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: ETC # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Blog 
+        link: dodo1054.tistory.com
+        sub_title: 개인 기록용 블로그
+        caption: 2019 ~ 현재
+        description: |
+          <p> 블로그를 한번 헤볼까? 라는 생각으로 개인 기록용으로 사용하는 블로그 입니다.
+              개인적으로 실천했던 부분들이나 개발하면서 기록이 필요하다고 생각되는 부분들을 기록하고 
+              다른 사람들이 참고하여 개발에 도움을 줄 수 있도록 만들려고 노력하고 있습니다.</p>
 
 # Footer
 footer_show_references: true
