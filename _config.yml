@@ -47,19 +47,19 @@ about_content: |
 
 content:
 - title: Skils # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-        description: | # this will include new lines to allow paragraphs
-           Language
-             - PHP, Javascript(jQuery), Java(SpringBoot)
-           WebServer
-             - Nginx, Apache
-           Database 
-             - Mysql  
-           ETC 
-             - AWS, Linux, Git, Github, Jira, Confluence, Slack
+  layout: list # Type of content section (list/text)
+  content:
+    - layout: left
+      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      description: | # this will include new lines to allow paragraphs
+        Language
+          - PHP, Javascript(jQuery), Java(SpringBoot)
+        WebServer
+          - Nginx, Apache
+        Database 
+          - Mysql  
+        ETC 
+          - AWS, Linux, Git, Github, Jira, Confluence, Slack
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
