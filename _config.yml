@@ -63,8 +63,8 @@ content:
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
-
-          <h2> 리팅성형외과 고객관리 프로그램 개발 [ 2021.04 - 2022.09 ]</h2> <br> 
+          <br>
+          <h2> 리팅성형외과 고객관리 프로그램 개발 [ 2021.05 - 2022.09 ] 하였으며 하루 약 1000 건 정도의 예약방문 고객 병원에 납품하였습니다 </h2> <br> 
           <h4> Description </h4>
             <p> 리팅성형외과 병원고객관리 프로그램 프로젝트 신규 개발 및 유지보수</p>
           <h4> Work </h4>
@@ -76,9 +76,20 @@ content:
             - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
             - ERD 관리 및 일부기능 DB 설계 참여
             - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
+            - 프로젝트 일정관리 및 Git 관리 
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>SpringBoot</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
+          <br>
+           <h2> 둘이서 급하게 개발한 페이지로 리팅성형외과 구환관리 통계 페이지 개발을 성공적으로 완료하여 [ 2021.04 - 2021.05 ] 병원 관리자 보고서 데이터기반으로 쓰이고 있습니다. </h2> <br> 
+          <h4> Description </h4>
+            <p> 리팅성형외과 구환(병원 진료 고객) 관리자 페이지 신규 개발</p>
+          <h4> Work </h4>
+            - 매출 통계 페이지 개발
+            - 고객 진료일 및 수술일 관련 통계 페이지 개발 
+          <h4>Tech Stack</h4>
+          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
+          -  <mark>Kendo UI Framework</mark>
 
   - title: A Little More About Me
     layout: text
