@@ -51,18 +51,35 @@ content:
         caption: 2021-02 ~ 현재
         description: | # this will include new lines to allow paragraphs
           <h2> 너랑나랑 및 연권 서비스 [ 2022.10 - 현재 ]</h2> <br> 
-          <h5> Description </h5>
+          <h4> Description </h4>
             <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
-          <h5> Work </h5>
+          <h4> Work </h4>
             - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
             - 쿠폰 이벤트 기능 API 개발 
             - 쿠팡 오퍼월 API 개발
             - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
             - Slow Query 튜닝
             - CMS 운영 사용성 개선 
-          <h5>Tech Stack</h5>
+          <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
+
+          <h2> 리팅성형외과 고객관리 프로그램 개발 [ 2021.04 - 2022.09 ]</h2> <br> 
+          <h4> Description </h4>
+            <p> 리팅성형외과 병원고객관리 프로그램 프로젝트 신규 개발 및 유지보수</p>
+          <h4> Work </h4>
+            - 예약, 상담, 진료, 수납 연동 Flow API 개발
+            - 예약, 상담, 진료, 수납 고객 관련 통계 페이지 개발   
+            - 비즈뿌리오 SMS API 개발 및 병원 서비스 내 예약관리 기능과 연동
+            - 한국정보인증 전자서명 API 개발 및 병원 서비스 진료관리 기능과 연동  
+            - AWS 클라우드 서버 구성 [EC2, RDS, ELB, route53, AutoScaling, S3]
+            - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
+            - ERD 관리 및 일부기능 DB 설계 참여
+            - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
+          <h4>Tech Stack</h4>
+          - <mark>PHP</mark> <mark>SpringBoot</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
+          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
