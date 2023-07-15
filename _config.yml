@@ -50,9 +50,19 @@ content:
         sub_title: Junior Backend Developer
         caption: 2021-02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          <h2> 너랑나랑 및 연권 서비스 </h2> <br>
-          <h3> 2022.10 - 현재 <h3> <br>
-          Description
+          <h2> 너랑나랑 및 연권 서비스 [ 2022.10 - 현재 ]</h2> <br> 
+          <h5> Description </h5>
+            <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
+          <h5> Work </h5>
+            - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
+            - 쿠폰 이벤트 기능 API 개발 
+            - 쿠팡 오퍼월 API 개발
+            - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
+            - Slow Query 튜닝
+            - CMS 운영 사용성 개선 
+          <h5>Tech Stack</h5>
+          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
+          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
