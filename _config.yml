@@ -41,8 +41,9 @@ content:
           - <mark>Nginx</mark> <mark>Apache</mark>
           - <mark>Mysql</mark>   
           - <mark>AWS</mark> <mark>Git</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Slack</mark>
-
-
+          <p> </p> 
+          <br>
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
