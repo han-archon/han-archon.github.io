@@ -1,6 +1,5 @@
 # Site
-repository: https://han-archon.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: sproogen/resume-theme
 
 # Content configuration version
 version: 2
