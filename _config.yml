@@ -22,26 +22,16 @@ github_username:  han-archon
 additional_links:
 - title: Link name
   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Han Jaewon
+about_title: Han Jaewon Introduce
 about_profile_image: images/profile.jpg
 about_content: | 
-  안녕하세요 백엔드 개발자로 일하고 있는 한재원 입니다.
-  협업 시 의사소통과 팀원들 간의 일정 및 업무 공유를 중요하게 생각하고, 
-  실무를 경험하며 협업능력과 개발능력을 기르고 있습니다. 
-  리팅 성형외과 병원 신규 고객관리프로그램(CRM) 프로젝트 개발 경험과
-  데이팅 앱 서비스인 너랑나랑 및 연권 앱 유지보수 및 신규개발 경험을 하고 있습니다.
+  안녕하세요 백엔드 개발자로 일하고 있는 한재원 입니다. \n
+  협업 시 의사소통과 팀원들 간의 일정 및 업무 공유를 중요하게 생각하고, \n
+  실무를 경험하며 협업능력과 개발능력을 기르고 있습니다. <br>
+  리팅 성형외과 병원 신규 고객관리프로그램(CRM) 프로젝트 개발 경험과 \n
+  데이팅 앱 서비스인 너랑나랑 및 연권 앱 유지보수 및 신규개발 경험을 하고 있습니다. \n
 
 content:
   - title: Skils # Title for the section
@@ -50,14 +40,10 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
         description: | # this will include new lines to allow paragraphs
-          Language
-          - PHP, Javascript(jQuery), Java(SpringBoot)
-          WebServer
-          - Nginx, Apache
-          Database 
-          - Mysql  
-          ETC 
-          - AWS, Linux, Git, Github, Jira, Confluence, Slack
+          - <mark>PHP</mark>,<mark>Javascript(jQuery)</mark>,<mark>Java(SpringBoot)</mark> 
+          - <mark>Nginx</mark>, <mark>Apache</mark>
+          - <mark>Mysql</mark>   
+          - <mark>AWS</mark>,<mark>Git</<mark>,<mark>Jira</mark>,<mark>Confluence</mark>,<mark>Slack</mark>
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
