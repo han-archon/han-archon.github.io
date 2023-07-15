@@ -46,12 +46,12 @@ about_content: |
   데이팅 앱 서비스인 너랑나랑 및 연권 앱 유지보수 및 신규개발 경험을 하고 있습니다.
 
 content:
-- title: Skils # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: left
-      border: weak  # Value of `weak` will display a weak border below this item. # Any 
-      description: | # this will include new lines to allow paragraphs
+  - title: Skils # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        description: | # this will include new lines to allow paragraphs
         Language
           - PHP, Javascript(jQuery), Java(SpringBoot)
         WebServer
