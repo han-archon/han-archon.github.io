@@ -99,11 +99,12 @@ content:
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
           -  <mark>Kendo UI Framework</mark>  
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: (주)이엔에스 
         link: http://www.ens-km.co.kr/
-        sub_title: Junior Engineer
+        sub_title: Junior Web developer
         caption: 2018-02 ~ 2021-01
         description: | # this will include new lines to allow paragraphs
           <h2> 하루 3만명 이상이  데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
