@@ -49,8 +49,8 @@ content:
         sub_title: Junior Backend Developer
         caption: 2021-02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          <h2> 하루 3만명 이상이 사용하는 데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
-          <h2> 2022.10 - 현재 </h2> 
+          <h2> 하루 3만명 이상이  데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
+          <h2> 2022.11 - 현재 </h2> 
           <h4> Description </h4>
             <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
           <h4> Work </h4>
@@ -98,7 +98,64 @@ content:
             - 고객 진료일 및 수술일 관련 통계 페이지 개발 
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
-          -  <mark>Kendo UI Framework</mark>
+          -  <mark>Kendo UI Framework</mark>  
+    content:
+      - layout: left
+        title: (주)이엔에스 
+        link: http://www.ens-km.co.kr/
+        sub_title: Junior Engineer
+        caption: 2018-02 ~ 2021-01
+        description: | # this will include new lines to allow paragraphs
+          <h2> 하루 3만명 이상이  데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
+          <h2> 2022.11 - 현재 </h2> 
+          <h4> Description </h4>
+            <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
+          <h4> Work </h4>
+            - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
+            - 쿠폰 이벤트 기능 API 개발 
+            - 쿠팡 오퍼월 API 개발
+            - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
+            - Slow Query 튜닝
+            - CMS 운영 사용성 개선 
+            - 서비스 잔존 버그 해결
+          <h4>Tech Stack</h4>
+          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
+          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
+
+          <br>
+
+          <h2> 리팅성형외과 고객관리 프로그램 개발  하였으며 하루 약 1000 건 정도의 예약방문 고객과 <br>
+               관리자 동시접속 약 200명 병원 납품</h2>  
+          <h2> 2021.05 - 2022.09 </h2> 
+          <h4> Description </h4>
+            <p> 리팅성형외과 병원고객관리 프로그램 프로젝트 신규 개발 및 유지보수</p>
+          <h4> Work </h4>
+            - 예약, 상담, 진료, 수납 연동 Flow API 개발
+            - 예약, 상담, 진료, 수납 고객 관련 통계 페이지 개발   
+            - 비즈뿌리오 SMS API 개발 및 병원 서비스 내 예약관리 기능과 연동
+            - 한국정보인증 전자서명 API 개발 및 병원 서비스 진료관리 기능과 연동  
+            - AWS 클라우드 서버 구성 [EC2, RDS, ELB, route53, AutoScaling, S3]
+            - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
+            - ERD 관리 및 일부기능 DB 설계 참여
+            - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
+            - 프로젝트 일정관리 및 Git 관리 
+          <h4>Tech Stack</h4>
+          - <mark>PHP</mark> <mark>SpringBoot</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
+          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
+
+          <br>
+          
+          <h2> 리팅성형외과 구환관리 통계 페이지 개발 3주만에 완료하여 병원 실적 보고서 데이터기반으로 쓰이고 있음 </h2> 
+          <h2> 2021.04 - 2021.05 </h2>
+          <h4> Description </h4>
+            <p> 리팅성형외과 구환(병원 진료 고객) 관리자 페이지 신규 개발</p>
+          <h4> Work </h4>
+            - 관리자 매출 통계 페이지 개발
+            - 관리자 진료, 상담, 콜, 수납 통계 페이지 개발
+            - 고객 진료일 및 수술일 관련 통계 페이지 개발 
+          <h4>Tech Stack</h4>
+          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
+          -  <mark>Kendo UI Framework</mark>          
   - title: ETC # Title for the section
     layout: list # Type of content section (list/text)
     content:
