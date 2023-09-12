@@ -99,6 +99,7 @@ content:
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
           -  <mark>Kendo UI Framework</mark>  
+          
     layout: list # Type of content section (list/text)
     content:
       - layout: left
