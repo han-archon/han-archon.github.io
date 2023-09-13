@@ -106,58 +106,49 @@ content:
         title: (주)이엔에스 
         link: http://www.ens-km.co.kr/
         sub_title: Junior Web developer
-        caption: 2018-02 ~ 2021-01
+        caption: 2018-03 ~ 2021-01
         description: | # this will include new lines to allow paragraphs
-          <h2> 하루 3만명 이상이  데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
-          <h2> 2022.11 - 현재 </h2> 
+          <h2> KT ESS 에너지 모니터링 시스템 </h2>
+          <h2> 2018-03 - 2019.12  </h2> 
           <h4> Description </h4>
-            <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
+            <p> 총 8개의 KT ESS 에너지 모니터링 시스템 환경 구축 및 유지보수 하였습니다.</p>
           <h4> Work </h4>
-            - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
-            - 쿠폰 이벤트 기능 API 개발 
-            - 쿠팡 오퍼월 API 개발
-            - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
-            - Slow Query 튜닝
-            - CMS 운영 사용성 개선 
-            - 서비스 잔존 버그 해결
+            - CentOS7 기반 Spring 및 Apache 환경 구축 
+            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
+            - 현장 내 LAN 및 RTU 환경 구축
           <h4>Tech Stack</h4>
-          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
-          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
+          - <mark>Java</mark> <mark>Javascript</mark> <mark>Apache</mark> 
+          - <mark>MariaDB</mark> <mark>CentsOS7</mark>
 
           <br>
 
-          <h2> 리팅성형외과 고객관리 프로그램 개발  하였으며 하루 약 1000 건 정도의 예약방문 고객과 <br>
-               관리자 동시접속 약 200명 병원 납품</h2>  
-          <h2> 2021.05 - 2022.09 </h2> 
+          <h2> 계열사 내 경주 태양광 발전소 PCS 및 BMS 장비 관리 시스템 솔루션 개발</h2>  
+          <h2> 2020.01 - 2020.11 </h2> 
           <h4> Description </h4>
-            <p> 리팅성형외과 병원고객관리 프로그램 프로젝트 신규 개발 및 유지보수</p>
+            <p> PMS 장비 관리 시스템 개발 및 배터리 관리 시스템 개발 </p>
           <h4> Work </h4>
-            - 예약, 상담, 진료, 수납 연동 Flow API 개발
-            - 예약, 상담, 진료, 수납 고객 관련 통계 페이지 개발   
-            - 비즈뿌리오 SMS API 개발 및 병원 서비스 내 예약관리 기능과 연동
-            - 한국정보인증 전자서명 API 개발 및 병원 서비스 진료관리 기능과 연동  
-            - AWS 클라우드 서버 구성 [EC2, RDS, ELB, route53, AutoScaling, S3]
-            - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
-            - ERD 관리 및 일부기능 DB 설계 참여
-            - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
-            - 프로젝트 일정관리 및 Git 관리 
+            - PCS 및 배터리 장비 서버 RTU 통신 서비스 개발 
+            - PCS 및 배터리 장비 서버 LAN 통신 서비스 개발   
+            - C# 윈폼 사용하여 장비 내 데이터 뷰 개발 
+            - Flex 4 이용하여 관제 모니터링 시스템 개발 
+            - 현장 내 LAN 및 RTU 환경 구축 
+            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
           <h4>Tech Stack</h4>
-          - <mark>PHP</mark> <mark>SpringBoot</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
-          - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
+          - <mark>C#</mark> <mark>Window</mark> <mark>Flex4</mark> 
+          - <mark>MariaDB</mark>
 
           <br>
           
-          <h2> 리팅성형외과 구환관리 통계 페이지 개발 3주만에 완료하여 병원 실적 보고서 데이터기반으로 쓰이고 있음 </h2> 
-          <h2> 2021.04 - 2021.05 </h2>
+          <h2> LG 장비 부하 테스트 장비 개발하여 LG에 납품  </h2> 
+          <h2> 2020.11 - 2021.12 </h2>
           <h4> Description </h4>
-            <p> 리팅성형외과 구환(병원 진료 고객) 관리자 페이지 신규 개발</p>
+            <p> C# 이용하여 LG 부하 테스트 장비 개발</p>
           <h4> Work </h4>
-            - 관리자 매출 통계 페이지 개발
-            - 관리자 진료, 상담, 콜, 수납 통계 페이지 개발
-            - 고객 진료일 및 수술일 관련 통계 페이지 개발 
+            - 예약 시간 설정에 따라 자동으로 부하테스트 서비스 개발
+            - 장비 별 부하 테스트 ON, OFF 기능 개발
           <h4>Tech Stack</h4>
-          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> 
-          -  <mark>Kendo UI Framework</mark>          
+          - <mark>C#</mark> <mark>JavaScript</mark> 
+          - <mark>MariaDB</mark>          
   - title: ETC # Title for the section
     layout: list # Type of content section (list/text)
     content:
