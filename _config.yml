@@ -108,17 +108,16 @@ content:
         sub_title: Junior Web developer
         caption: 2018-03 ~ 2021-01
         description: | # this will include new lines to allow paragraphs
-          <h2> KT ESS 에너지 모니터링 시스템 </h2>
-          <h2> 2018-03 - 2019.12  </h2> 
+        <h2> LG 장비 부하 테스트 장비 개발하여 LG에 납품  </h2> 
+          <h2> 2020.11 - 2021.12 </h2>
           <h4> Description </h4>
-            <p> 총 8개의 KT ESS 에너지 모니터링 시스템 환경 구축 및 유지보수 하였습니다.</p>
+            <p> C# 이용하여 LG 부하 테스트 장비 개발</p>
           <h4> Work </h4>
-            - CentOS7 기반 Spring 및 Apache 환경 구축 
-            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
-            - 현장 내 LAN 및 RTU 환경 구축
+            - 예약 시간 설정에 따라 자동으로 부하테스트 서비스 개발
+            - 장비 별 부하 테스트 ON, OFF 기능 개발
           <h4>Tech Stack</h4>
-          - <mark>Java</mark> <mark>Javascript</mark> <mark>Apache</mark> 
-          - <mark>MariaDB</mark> <mark>CentsOS7</mark>
+          - <mark>C#</mark> <mark>JavaScript</mark> 
+          - <mark>MariaDB</mark>          
 
           <br>
 
@@ -139,16 +138,19 @@ content:
 
           <br>
           
-          <h2> LG 장비 부하 테스트 장비 개발하여 LG에 납품  </h2> 
-          <h2> 2020.11 - 2021.12 </h2>
+            <h2> KT ESS 에너지 모니터링 시스템 </h2>
+          <h2> 2018-03 - 2019.12  </h2> 
           <h4> Description </h4>
-            <p> C# 이용하여 LG 부하 테스트 장비 개발</p>
+            <p> 총 8개의 KT ESS 에너지 모니터링 시스템 환경 구축 및 유지보수 하였습니다.</p>
           <h4> Work </h4>
-            - 예약 시간 설정에 따라 자동으로 부하테스트 서비스 개발
-            - 장비 별 부하 테스트 ON, OFF 기능 개발
+            - CentOS7 기반 Spring 및 Apache 환경 구축 
+            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
+            - 현장 내 LAN 및 RTU 환경 구축
           <h4>Tech Stack</h4>
-          - <mark>C#</mark> <mark>JavaScript</mark> 
-          - <mark>MariaDB</mark>          
+          - <mark>Java</mark> <mark>Javascript</mark> <mark>Apache</mark> 
+          - <mark>MariaDB</mark> <mark>CentsOS7</mark>
+
+          
   - title: ETC # Title for the section
     layout: list # Type of content section (list/text)
     content:
