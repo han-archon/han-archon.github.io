@@ -83,7 +83,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 테크랩스 
+        title: (주)테크랩스
         link: https://www.techlabs.co.kr/
         sub_title: Junior Backend Developer
         caption: 2021-02 ~ 2023-10
@@ -95,10 +95,11 @@ content:
           <h4> Work </h4>
             - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
             - 쿠폰 이벤트 기능 API 개발 
-            - 쿠팡 오퍼월 API 개발
+            - 쿠팡 오퍼월 API 개발 
+            - 각각 흩어져 있는 푸시 전송 기능 함수화 하여 관리 포인트 줄임
             - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
-            - Slow Query 튜닝
-            - CMS 운영 사용성 개선 
+            - Slow Query 튜닝 통계 운영 웹 페이지 회원 검색 속도 개선
+            - CMS 운영 (문의 및 앱내 버그) 사용성 개선 
             - 앱 서비스 안정화 및 개선 (유지보수)
           
           <h4>Tech Stack</h4>
@@ -115,13 +116,16 @@ content:
           <h4> Work </h4>
             - 예약, 상담, 진료, 수납 연동 Flow API 개발
             - 예약, 상담, 진료, 수납 고객 관련 통계 페이지 개발   
-            - 비즈뿌리오 SMS API 개발 및 병원 서비스 내 예약관리 기능과 연동
-            - 한국정보인증 전자서명 API 개발 및 병원 서비스 진료관리 기능과 연동  
-            - AWS 클라우드 서버 구성 [EC2, RDS, ELB, route53, AutoScaling, S3]
+            - 비즈뿌리오 SMS API 개발 및 병원 서비스 내 예약관리 기능과 연동하여 
+              구환 고객 및 신환 고객 SMS 자동화
+            - 한국정보인증 전자서명 API 개발 및 병원 서비스 진료관리 기능과 연동하여
+              진료의사 간편 서명 기능 제공
+            - 혼자서 AWS 클라우드 서버 구성 [EC2, RDS, ELB, route53, AutoScaling, S3] 으로
+              프로젝트 개발/운영 서버 환경 구성 및 구축 진행
             - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
             - ERD 관리 및 일부기능 DB 설계 참여
-            - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
-            - 프로젝트 일정관리 및 Git 관리 
+            - 기존 병원에서 운영했던 프로그램 내 약 150만 건의 병원 Data Migration 자동화 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
+            - 프로젝트 일정 관리 및 Git 도입으로 (git action) CI/CD 진행
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
