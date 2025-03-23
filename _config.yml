@@ -124,7 +124,8 @@ content:
               프로젝트 개발/운영 서버 환경 구성 및 구축 진행
             - 병원 서비스 내 고객 차트 및 이미지 AWS S3 스토리지 연동 API 개발 [Upload, Read, Copy, Delete] 
             - ERD 관리 및 일부기능 DB 설계 참여
-            - 기존 병원에서 운영했던 프로그램 내 약 150만 건의 병원 Data Migration 자동화 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
+            - 기존 병원에서 운영했던 프로그램 내 약 150만 건의 병원 Data Migration 자동화 스크립트 개발
+              레거시 DB 테이블, 데이터 한글 -> 코드값 변환 및 신규 관리 테이블 동기화 
             - 프로젝트 일정 관리 및 Git 도입으로 (git action) CI/CD 진행
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
