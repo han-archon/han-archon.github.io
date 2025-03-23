@@ -36,7 +36,7 @@ content:
     content:
       - layout: left
         description: | # this will include new lines to allow paragraphs
-          - <mark>PHP</mark> <mark>Javascript(jQuery)</mark> <mark>Java(SpringBoot)</mark> 
+          - <mark>PHP</mark> <mark>Javascript(jQuery)</mark> <mark>Java(SpringBoot)</mark> <mark>Vue</mark>
           - <mark>Nginx</mark> <mark>Apache</mark>
           - <mark>Mysql</mark>   
           - <mark>AWS</mark> <mark>Git</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Slack</mark>
@@ -44,13 +44,50 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: (주)지란지교에스앤씨
+        link: https://www.jiransnc.com/
+        sub_title: Junior Web developer
+        caption: 2023-10 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          <h2> 시스템 취약점 자동진단 솔루션 VADA 3.0 유지보수 및 개발 </h2> 
+          <h2> 2023.11 - 현재 </h2>
+          <h4> Description </h4>
+            <p> 취약점 자동진단 솔루션 안정화 및 추가 기능 개발 하였습니다. </p>
+          <h4> Work </h4>
+            - 서비스 안정화 및 기능 개선 
+            - Slow Query 개선
+            - 자사 솔루션 기능과 현대해상 및 대신증권 내부 메신저 기능 연동 API 개발
+            - 기타 취약점 기능 개발 
+          <h4>Tech Stack</h4>
+          - <mark>Java(SpringBoot)</mark> <mark>JavaScript(Jquery)</mark> <mark>CSS</mark> 
+          - <mark>MariaDB</mark> 
+          - <mark>Kendo UI Framework</mark>  
+              
+
+          <br>
+
+          <h2> 시스템 취약점 자동진단 솔루션 VADA 4.0 개발 </h2>  
+          <h2> 2024.03 - 현재 </h2> 
+          <h4> Description </h4>
+            <p> 새로운 4.0 취약점 자동진단 솔루션 부분 개발 진행을 하였습니다. </p>
+          <h4> Work </h4> 
+            - 솔루션 제품 GS 인증획득
+            - 출시 전 솔루션 제품 안정화 
+            - 취약점 진단 보고서 기능 개발
+          <h4>Tech Stack</h4>
+          - <mark>Java(Springboot)</mark> <mark>Vue</mark> <mark>JavaScript</mark>
+          - <mark>MariaDB</mark>
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
         title: 테크랩스 
         link: https://www.techlabs.co.kr/
         sub_title: Junior Backend Developer
-        caption: 2021-02 ~ 현재
+        caption: 2021-02 ~ 2023-10
         description: | # this will include new lines to allow paragraphs
-          <h2> 하루 3만명 이상이  데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
-          <h2> 2022.11 - 현재 </h2> 
+          <h2> 하루 3만명 이상이 이용하는 데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
+          <h2> 2022.11 - 2023.10 </h2> 
           <h4> Description </h4>
             <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
           <h4> Work </h4>
@@ -60,14 +97,15 @@ content:
             - 너랑나랑 및 연권 AWS -> IDC 서버이전 (Mysql 5.6 -> 8.0 Migration, API 및 CMS 서버 분리) 
             - Slow Query 튜닝
             - CMS 운영 사용성 개선 
-            - 서비스 잔존 버그 해결
+            - 앱 서비스 안정화 및 개선 (유지보수)
+          
           <h4>Tech Stack</h4>
           - <mark>PHP</mark> <mark>JavaScript</mark> <mark>Nginx</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Zeppelin</mark>
 
           <br>
 
-          <h2> 리팅성형외과 고객관리 프로그램 개발  하였으며 하루 약 1000 건 정도의 예약방문 고객과 <br>
+          <h2> 리팅성형외과 고객관리 프로그램 개발 하였으며 하루 약 1000 건 정도의 예약방문 고객과 <br>
                관리자 동시접속 약 200명 병원 납품</h2>  
           <h2> 2021.05 - 2022.09 </h2> 
           <h4> Description </h4>
@@ -83,12 +121,12 @@ content:
             - 약 150만 건의 병원 Data Migration 스크립트 개발 [데이터 한글 -> 코드값 변환 및 분리] 
             - 프로젝트 일정관리 및 Git 관리 
           <h4>Tech Stack</h4>
-          - <mark>PHP</mark> <mark>SpringBoot</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
+          - <mark>PHP</mark> <mark>JavaScript</mark> <mark>CSS</mark> <mark>Apache</mark> 
           - <mark>Mysql</mark> <mark>AWS</mark> <mark>Kendo UI Framework</mark>
 
           <br>
           
-          <h2> 리팅성형외과 구환관리 통계 페이지 개발 3주만에 완료하여 병원 실적 보고서 데이터기반으로 쓰이고 있음 </h2> 
+          <h2> 리팅성형외과 구환관리 통계 페이지 개발 완료하여 병원 실적 보고서 데이터기반으로 쓰이고 있음 </h2> 
           <h2> 2021.04 - 2021.05 </h2>
           <h4> Description </h4>
             <p> 리팅성형외과 구환(병원 진료 고객) 관리자 페이지 신규 개발</p>
@@ -109,7 +147,7 @@ content:
         caption: 2018-03 ~ 2021-01
         description: | # this will include new lines to allow paragraphs
           <h2> LG 장비 부하 테스트 장비 개발하여 LG에 납품  </h2> 
-          <h2> 2020.11 - 2021.12 </h2>
+          <h2> 2020.12 - 2021.01 </h2>
           <h4> Description </h4>
             <p> C# 이용하여 LG 부하 테스트 장비 개발</p>
           <h4> Work </h4>
@@ -121,17 +159,15 @@ content:
 
           <br>
 
-          <h2> 계열사 내 경주 태양광 발전소 PCS 및 BMS 장비 관리 시스템 솔루션 개발</h2>  
-          <h2> 2020.01 - 2020.11 </h2> 
+          <h2> 계열사 내 경주 태양광 발전소 시스템 환경 구축 및 개발 </h2>  
+          <h2> 2020.01 - 2020.12 </h2> 
           <h4> Description </h4>
-            <p> PMS 장비 관리 시스템 개발 및 배터리 관리 시스템 개발 </p>
-          <h4> Work </h4>
-            - PCS 및 배터리 장비 서버 RTU 통신 서비스 개발 
-            - PCS 및 배터리 장비 서버 LAN 통신 서비스 개발   
+            <p> 태양광 발전소 시스템 환경 구축 및 장비 관리 시스템 개발 </p>
+          <h4> Work </h4> 
             - C# 윈폼 사용하여 장비 내 데이터 뷰 개발 
-            - Flex 4 이용하여 관제 모니터링 시스템 개발 
-            - 현장 내 LAN 및 RTU 환경 구축 
-            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
+            - Flex 4 이용하여 관제 모니터링 시스템 구축 
+            - 현장 내 에너지 모니터링 시스템 서버 구축
+            - 현장 내 LAN 및 RTU 통신 환경 구축 
           <h4>Tech Stack</h4>
           - <mark>C#</mark> <mark>Window</mark> <mark>Flex4</mark> 
           - <mark>MariaDB</mark>
@@ -143,12 +179,11 @@ content:
           <h4> Description </h4>
             <p> 총 8개의 KT ESS 에너지 모니터링 시스템 환경 구축 및 유지보수 하였습니다.</p>
           <h4> Work </h4>
-            - CentOS7 기반 Spring 및 Apache 환경 구축 
-            - 현장 내 에너지 모니터링 시스템 서버 구축 및 장비 통신 연결
-            - 현장 내 LAN 및 RTU 환경 구축
+            - CentOS7 기반 Spring 및 Apache 서버 환경 구축 
+            - 현장 내 에너지 모니터링 시스템 서버 구축 
+            - 현장 내 LAN 및 RTU 통신 환경 구축
           <h4>Tech Stack</h4>
-          - <mark>Java</mark> <mark>Javascript</mark> <mark>Apache</mark> 
-          - <mark>MariaDB</mark> <mark>CentsOS7</mark>
+          - <mark>Java</mark> <mark>CentsOS7</mark>
 
   - title: ETC # Title for the section
     layout: list # Type of content section (list/text)
