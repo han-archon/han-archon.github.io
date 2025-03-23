@@ -25,8 +25,10 @@ about_content: |
   안녕하세요 백엔드 개발자로 일하고 있는 한재원 입니다. <br>
   협업 시 의사소통과 팀원들 간의 일정 및 업무 공유를 중요하게 생각하고, <br>
   실무를 경험하며 협업능력과 개발능력을 기르고 있습니다. <br>
-  리팅 성형외과 병원 신규 고객관리프로그램(CRM) 프로젝트 개발 경험과 <br>
-  데이팅 앱 서비스인 너랑나랑 및 연권 앱 유지보수 및 신규개발 경험을 하고 있습니다. <br>
+  
+  웹 개발 경험으로는 리팅 성형외과 병원 신규 고객관리프로그램(CRM) 프로젝트 <br>
+  시스템 취약점 자동진단 솔루션 유지보수 및 신규 프로젝트 개발을 진행하였으며 <br>  
+  앱 백엔드 개발 경험으로는 데이팅 앱 서비스인 아만다, 너랑나랑 및 연권 앱 유지보수 및 신규개발을 진행하였습니다. <br>
   
   긍정적으로 잘 웃는 성격이며 어느 환경에서든 조직에 잘 적응하며 <br>
   새로운 기술에 대해 거부감 없이 접근하고 생각하기 때문에 늘 성장할 수 있는 개발자가 될 수 있습니다.
@@ -69,10 +71,10 @@ content:
           <h2> 시스템 취약점 자동진단 솔루션 VADA 4.0 개발 </h2>  
           <h2> 2024.03 - 현재 </h2> 
           <h4> Description </h4>
-            <p> 새로운 4.0 취약점 자동진단 솔루션 부분 개발 진행을 하였습니다. </p>
+            <p> 신규 4.0 취약점 자동진단 솔루션 부분 개발 진행을 하였습니다. </p>
           <h4> Work </h4> 
-            - 솔루션 제품 GS 인증획득
-            - 출시 전 솔루션 제품 안정화 
+            - 신규 솔루션 제품 GS 인증획득
+            - 신규 솔루션 제품 안정화 
             - 취약점 진단 보고서 기능 개발
           <h4>Tech Stack</h4>
           - <mark>Java(Springboot)</mark> <mark>Vue</mark> <mark>JavaScript</mark>
@@ -86,10 +88,10 @@ content:
         sub_title: Junior Backend Developer
         caption: 2021-02 ~ 2023-10
         description: | # this will include new lines to allow paragraphs
-          <h2> 하루 3만명 이상이 이용하는 데이팅 앱 너랑나랑 및 연권 서비스 운영</h2>
+          <h2> 하루 3만명 이상이 이용하는 데이팅 앱 아만다, 너랑나랑 및 연권 서비스 운영</h2>
           <h2> 2022.11 - 2023.10 </h2> 
           <h4> Description </h4>
-            <p> 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
+            <p> 아만다, 너랑나랑 및 연권 서비스 사용성 향상을 위해 유지보수 및 API 개선하였습니다.</p>
           <h4> Work </h4>
             - 기존 FTP -> API 코드 형상관리를 위한 Git 적용 
             - 쿠폰 이벤트 기능 API 개발 
@@ -143,7 +145,7 @@ content:
       - layout: left
         title: (주)이엔에스 
         link: http://www.ens-km.co.kr/
-        sub_title: Junior Web developer
+        sub_title: Engineer
         caption: 2018-03 ~ 2021-01
         description: | # this will include new lines to allow paragraphs
           <h2> LG 장비 부하 테스트 장비 개발하여 LG에 납품  </h2> 
